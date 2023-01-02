@@ -1,0 +1,9 @@
+{
+  "accentColor": "#b8a5f8",
+  "theme": "system",
+  "interfaceFontFamily": "EllographCF Nerd Font",
+  "textFontFamily": "EllographCF Nerd Font",
+  "monospaceFontFamily": "EllographCF Nerd Font",
+  "translucency": true,
+  "baseFontSize": 16
+}
