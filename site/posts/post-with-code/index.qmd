@@ -1,0 +1,23 @@
+---
+title: "Post With Code"
+author: "Harlow Malloc"
+date: "2023-01-02"
+categories: [news, code, analysis]
+image: "image.jpg"
+jupyter: python3
+---
+
+This is a post with executable code.
+
+```{python}
+import pandas as pd
+```
+
+```{python}
+books = pd.read_csv('../../../data/books.csv')
+```
+
+## Here are the books I'm currently reading
+```{python}
+books[books['status'] == 'Currently reading']
+```

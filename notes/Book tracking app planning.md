@@ -1,0 +1,8 @@
+- Obsidian text files for writing and data creation
+- CLI
+	- for ensuring the schema is correct
+	- for syncing data to and from database
+- GCP Database
+	- storing all the data properly
+- GCP Hosting
+	- FastAPI API
