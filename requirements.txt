@@ -1,3 +1,6 @@
-python-frontmatter
-pandas
 jupyter
+pandas
+pandas-gbq
+google-api-python-client
+httplib2
+python-frontmatter

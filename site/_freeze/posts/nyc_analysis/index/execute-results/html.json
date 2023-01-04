@@ -1,0 +1,15 @@
+{
+  "hash": "7cdc85f03cbf8e09de2f03423cd724c7",
+  "result": {
+    "markdown": "---\ntitle: Analyzing public data from BiqQuery on NYC\nauthor: Gwen Windflower\ndate: '2023-01-04'\n---\n\nLet's get set up and import our data.\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\n# setup oauth for Google BigQuery, put the project we'll be running compute on in a variable\nproject_id = 'dbt-bq-public-datasets'\n\nimport pandas as pd\n\nsubway_routes = pd.io.gbq.read_gbq('''\n  SELECT * FROM `bigquery-public-data.new_york_subway.routes`\n''', project_id=project_id)\n```\n:::\n\n\n::: {.cell execution_count=2}\n``` {.python .cell-code}\nsubway_routes.head()\n```\n\n::: {.cell-output .cell-output-display execution_count=2}\n```{=html}\n<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>route_id</th>\n      <th>route_short_name</th>\n      <th>route_long_name</th>\n      <th>route_describe</th>\n      <th>route_type</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>GS</td>\n      <td>S</td>\n      <td>42 St Shuttle</td>\n      <td>Operates in Manhattan between Grand Central an...</td>\n      <td>1</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>E</td>\n      <td>E</td>\n      <td>8 Avenue Local</td>\n      <td>Trains operate between Jamaica Center (Parsons...</td>\n      <td>1</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>C</td>\n      <td>C</td>\n      <td>8 Avenue Local</td>\n      <td>Trains operate between 168 St, Manhattan, and ...</td>\n      <td>1</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>R</td>\n      <td>R</td>\n      <td>Broadway Local</td>\n      <td>Trains operate local between Forest Hills-71 A...</td>\n      <td>1</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>N</td>\n      <td>N</td>\n      <td>Broadway Local</td>\n      <td>Trains operate from Astoria-Ditmars Boulevard,...</td>\n      <td>1</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js\" integrity=\"sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\" integrity=\"sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==\" crossorigin=\"anonymous\"></script>\n<script type=\"application/javascript\">define('jquery', [],function() {return window.jQuery;})</script>\n"
+      ]
+    }
+  }
+}

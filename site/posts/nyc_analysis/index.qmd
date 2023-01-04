@@ -1,0 +1,23 @@
+---
+title: "Analyzing public data from BiqQuery on NYC"
+author: "Gwen Windflower"
+date: "2023-01-04"
+jupyter: python3
+---
+Let's get set up and import our data.
+```{python}
+# setup oauth for Google BigQuery, put the project we'll be running compute on in a variable
+project_id = 'dbt-bq-public-datasets'
+
+import pandas as pd
+
+subway_routes = pd.io.gbq.read_gbq('''
+  SELECT * FROM `bigquery-public-data.new_york_subway.routes`
+''', project_id=project_id)
+
+```
+
+
+```{python}
+subway_routes.head()
+```

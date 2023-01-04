@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "StarElf Chronicles",
     "section": "",
-    "text": "Cool beans\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2023\n\n\nGwen Windflower\n\n\n\n\n\n\nNo matching items"
+    "text": "Analyzing public data from BiqQuery on NYC\n\n\n\n\n\n\n\n\n\n\n\n\nJan 4, 2023\n\n\nGwen Windflower\n\n\n\n\n\n\n  \n\n\n\n\nCool beans\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2023\n\n\nGwen Windflower\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -33,5 +33,12 @@
     "title": "Cool beans",
     "section": "Here are the books I’m currently reading",
     "text": "Here are the books I’m currently reading\n\nbooks[books['status'] == 'Currently reading']\n\n\n\n\n\n  \n    \n      \n      title\n      author\n      genre_1\n      genre_2\n      rating\n      status\n      topics\n    \n  \n  \n    \n      0\n      Autonomous\n      Annalee Newitz\n      Science Fiction\n      NaN\n      5\n      Currently reading\n      NaN"
+  },
+  {
+    "objectID": "posts/nyc_analysis/index.html",
+    "href": "posts/nyc_analysis/index.html",
+    "title": "Analyzing public data from BiqQuery on NYC",
+    "section": "",
+    "text": "Let’s get set up and import our data.\n\n# setup oauth for Google BigQuery, put the project we'll be running compute on in a variable\nproject_id = 'dbt-bq-public-datasets'\n\nimport pandas as pd\n\nsubway_routes = pd.io.gbq.read_gbq('''\n  SELECT * FROM `bigquery-public-data.new_york_subway.routes`\n''', project_id=project_id)\n\n\nsubway_routes.head()\n\n\n\n\n\n  \n    \n      \n      route_id\n      route_short_name\n      route_long_name\n      route_describe\n      route_type\n    \n  \n  \n    \n      0\n      GS\n      S\n      42 St Shuttle\n      Operates in Manhattan between Grand Central an...\n      1\n    \n    \n      1\n      E\n      E\n      8 Avenue Local\n      Trains operate between Jamaica Center (Parsons...\n      1\n    \n    \n      2\n      C\n      C\n      8 Avenue Local\n      Trains operate between 168 St, Manhattan, and ...\n      1\n    \n    \n      3\n      R\n      R\n      Broadway Local\n      Trains operate local between Forest Hills-71 A...\n      1\n    \n    \n      4\n      N\n      N\n      Broadway Local\n      Trains operate from Astoria-Ditmars Boulevard,...\n      1"
   }
 ]
