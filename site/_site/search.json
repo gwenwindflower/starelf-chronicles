@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "StarElf Chronicles",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 30, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Cool beans\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 2, 2023\n\n\nGwen Windflower\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "Cool beans",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is a post with executable code. Cool!"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -30,7 +30,7 @@
   {
     "objectID": "posts/post-with-code/index.html#here-are-the-books-im-currently-reading",
     "href": "posts/post-with-code/index.html#here-are-the-books-im-currently-reading",
-    "title": "Post With Code",
+    "title": "Cool beans",
     "section": "Here are the books I’m currently reading",
     "text": "Here are the books I’m currently reading\n\nbooks[books['status'] == 'Currently reading']\n\n\n\n\n\n  \n    \n      \n      title\n      author\n      genre_1\n      genre_2\n      rating\n      status\n      topics\n    \n  \n  \n    \n      0\n      Autonomous\n      Annalee Newitz\n      Science Fiction\n      NaN\n      5\n      Currently reading\n      NaN"
   }

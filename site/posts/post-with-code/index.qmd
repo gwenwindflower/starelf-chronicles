@@ -1,13 +1,13 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Cool beans"
+author: "Gwen Windflower"
 date: "2023-01-02"
 categories: [news, code, analysis]
 image: "image.jpg"
 jupyter: python3
 ---
 
-This is a post with executable code.
+This is a post with executable code. Cool!
 
 ```{python}
 import pandas as pd

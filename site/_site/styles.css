@@ -1,1 +1,9 @@
 /* css styles */
+* {
+    font-family: 'Ellograph CF';
+}
+
+.quarto-title-banner {
+    background-color: lavender;
+    color: blue;
+}

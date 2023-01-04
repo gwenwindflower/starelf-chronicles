@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4eac18ed4771ad61",
+        "id": "86bbd265711c5b79",
         "type": "tabs",
         "children": [
           {
-            "id": "36aeab559e115e32",
+            "id": "edb5a6511a770607",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reading/books/Autonomous.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading/books/Autonomous.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reading/books/Autonomous.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "reading/books/Autonomous.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,17 +137,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36aeab559e115e32",
+  "active": "edb5a6511a770607",
   "lastOpenFiles": [
+    "Book tracking app planning.md",
+    "reading/books/Autonomous.md",
+    "reading/authors/L.X. Beckett.md",
+    "reading/genres/Science Fiction.md",
+    "reading/books/Gamechanger.md",
     "reading/books/cover_images/newitz_autonomous.jpeg",
     "reading/statuses/Currently reading.md",
-    "reading/books/Autonomous.md",
     "reading/books/Her Body and Other Parties.md",
     "reading/statuses/Paused.md",
-    "Book tracking app planning.md",
-    "reading/genres/Realism.md",
-    "reading/authors/Annalee Newitz.md",
-    "reading/books/The Blind Assassin.md",
-    "reading/genres/Science Fiction.md"
+    "reading/genres/Realism.md"
   ]
 }
