@@ -11,11 +11,64 @@
             "id": "edb5a6511a770607",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hundreds of examples beats thousands of words.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "642472eed5d7d3cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Split skills into smaller chunks and work to achieve expertise quickly.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aab8009b4b8aa7b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Plan systems for the life and work you might reasonably live this week.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "586bb4e578aabfbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structure is layers of process.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20b0ff71a8f22b3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Organizational objectives should be unique to the organization.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -65,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 268.5
   },
   "right": {
     "id": "2e7ab7b27a0ecf1b",
@@ -81,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Organizational objectives should be unique to the organization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Organizational objectives should be unique to the organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Organizational objectives should be unique to the organization.md"
+              }
             }
           }
         ]
@@ -137,17 +194,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "edb5a6511a770607",
+  "active": "20b0ff71a8f22b3d",
   "lastOpenFiles": [
+    "Structure is layers of process.md",
+    "Plan systems for the life and work you might reasonably live this week.md",
+    "Split skills into smaller chunks and work to achieve expertise quickly.md",
+    "Hundreds of examples beats thousands of words.md",
     "Book tracking app planning.md",
     "reading/books/Autonomous.md",
     "reading/authors/L.X. Beckett.md",
     "reading/genres/Science Fiction.md",
     "reading/books/Gamechanger.md",
-    "reading/books/cover_images/newitz_autonomous.jpeg",
-    "reading/statuses/Currently reading.md",
-    "reading/books/Her Body and Other Parties.md",
-    "reading/statuses/Paused.md",
-    "reading/genres/Realism.md"
+    "reading/books/cover_images/newitz_autonomous.jpeg"
   ]
 }
