@@ -9,4 +9,3 @@ FROM "reading/books"
 WHERE status = "Currently reading"
 SORT rating DESC
 ```
-

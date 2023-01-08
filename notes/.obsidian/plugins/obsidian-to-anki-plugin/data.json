@@ -1,0 +1,118 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "Basic": "^#+(.+)\\n*((?:\\n(?:^[^\\n#].{0,2}$|^[^\\n#].{3}(?<!<!--).*))+)",
+      "Basic (and reversed card)": "",
+      "Basic (optional reversed card)": "",
+      "Basic (type in the answer)": "",
+      "Cloze": ""
+    },
+    "FILE_LINK_FIELDS": {
+      "Basic": "Front",
+      "Basic (and reversed card)": "Front",
+      "Basic (optional reversed card)": "Front",
+      "Basic (type in the answer)": "Front",
+      "Cloze": "Text"
+    },
+    "CONTEXT_FIELDS": {},
+    "FOLDER_DECKS": {
+      "inbox": "",
+      "reading": "",
+      "study": "",
+      "templates": "",
+      "reading/authors": "",
+      "reading/books": "",
+      "reading/genres": "",
+      "reading/statuses": "",
+      "study/linguistics": "Linguistics",
+      "study/statistics": "Statistics",
+      "reading/books/cover_images": "",
+      "study/python": "python"
+    },
+    "FOLDER_TAGS": {
+      "inbox": "",
+      "reading": "",
+      "study": "",
+      "templates": "",
+      "reading/authors": "",
+      "reading/books": "",
+      "reading/genres": "",
+      "reading/statuses": "",
+      "study/linguistics": "",
+      "study/statistics": "",
+      "reading/books/cover_images": "",
+      "study/python": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "Default",
+      "Scheduling Interval": 0,
+      "Add File Link": false,
+      "Add Context": false,
+      "CurlyCloze": false,
+      "CurlyCloze - Highlights to Clozes": false,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    }
+  },
+  "Added Media": [],
+  "File Hashes": {
+    "templates/Book.md": "abf8a9bce091f00c5557bbd884504ab2",
+    "templates/Author.md": "c1224ebf36b19cd4798e961df68726c0",
+    "study/statistics/Scales of measurement.md": "4d6f8ac4d500457649e4262e5b12cc97",
+    "study/statistics/Experimental design.md": "c2ccf722408aee505081debd07ca4d05",
+    "study/linguistics/Basics of language.md": "099a8f65f121cfee890d1d0278e892e0",
+    "reading/statuses/Paused.md": "994f27a6d99af41a91997c1b03b549ea",
+    "reading/statuses/Currently reading.md": "59383ecb33dc65c7823cd2755f60e8c5",
+    "reading/genres/Science Fiction.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "reading/genres/Realism.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "reading/genres/Horror.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "reading/books/The Blind Assassin.md": "70f5001e2cc56d89c9d9cf4a77ab8863",
+    "reading/books/Her Body and Other Parties.md": "9508ab37f22d2b10d179ee94979161de",
+    "reading/books/Gamechanger.md": "921c5d448857bd4bf75df754c69c93dc",
+    "reading/books/Autonomous.md": "2c70475f22cd16b0834d067b17807d18",
+    "reading/authors/Margaret Atwood.md": "c33b2187300a8b380cc82ebfb04e1d77",
+    "reading/authors/L.X. Beckett.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "reading/authors/Carmen Maria Machado.md": "cacd8a0a880f7399c2804ef4d41bca83",
+    "reading/authors/Annalee Newitz.md": "5a350ef5aac5ce9ff7d3b2017dd8f818",
+    "Structure is layers of process.md": "343d3a796da738ebb755bd8c69239d89",
+    "Split skills into smaller chunks and work to achieve expertise quickly.md": "b124e02bedcb4b3523f3fa2d04893067",
+    "Plan systems for the life and work you might reasonably live this week.md": "758c37eb951c422a0bd774fe2c2fe416",
+    "Organizational objectives should be unique to the organization.md": "dc17cfa80c8d56c0376f7bad834528ca",
+    "Hundreds of examples beats thousands of words.md": "8a3dbc20a0ae33648e4098383ddb3eac",
+    "study/python/Collections.md": "202c37022c22b9146f432fea71a4285a"
+  },
+  "fields_dict": {
+    "Basic": [
+      "Front",
+      "Back"
+    ],
+    "Basic (and reversed card)": [
+      "Front",
+      "Back"
+    ],
+    "Basic (optional reversed card)": [
+      "Front",
+      "Back",
+      "Add Reverse"
+    ],
+    "Basic (type in the answer)": [
+      "Front",
+      "Back"
+    ],
+    "Cloze": [
+      "Text",
+      "Back Extra"
+    ]
+  }
+}
